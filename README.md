@@ -13,7 +13,7 @@ Sehingga, secara penuh template ini belum mewakili aturan yang berlaku secara um
 
 > Perlu diketahui, template ini bukanlah template resmi yang dikeluarkan oleh ITS maupun departemen-departemen yang ada di bawah naungan ITS.
 
-> Lihat halaman [Release](https://github.com/b201lab/template-buku-ta-its/releases) untuk hasil PDF dari template ini, atau klik di [sini](https://github.com/b201lab/template-buku-ta-its/releases/download/v1.1/main.pdf).
+> Template diperbaharui menyesuaikan kebijakan SK Rektor no 280 th 2022
 
 ## Fitur
 
@@ -40,12 +40,6 @@ Selain file `main.tex`, ada juga beberapa bagian lain dari template ini yang bis
 - **[`sampul`](./sampul)**, berisi file `*.tex` dari sampul luar dan dalam untuk buku tugas akhir.
 
 > Penjelasan lebih lanjut mengenai penggunaan template ini akan dijelaskan dengan comment yang tersedia pada setiap file yang ada.
-
-## Contoh Penggunaan Template
-
-Berikut adalah daftar repositori lain yang menggunakan template yang berasal dari repositori ini:
-- [threeal/buku-ta-simulasi-robot](https://github.com/threeal/buku-ta-simulasi-robot).
-- [chillytaka/last_boss](https://github.com/chillytaka/last_boss).
 
 ## Lisensi
 
