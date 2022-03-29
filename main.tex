@@ -3,10 +3,10 @@
 \author{Musk, Elon Reeve}
 
 % Pengaturan ukuran teks dan bentuk halaman dua sisi
-\documentclass[10pt,twoside]{report}
+\documentclass[12pt,twoside]{report}
 
 % Pengaturan ukuran halaman dan margin
-\usepackage[a5paper,top=25mm,left=25mm,right=20mm,bottom=25mm]{geometry}
+\usepackage[a4paper,top=30mm,left=30mm,right=20mm,bottom=25mm]{geometry}
 
 % Pengaturan ukuran spasi
 \usepackage[singlespacing]{setspace}
@@ -50,7 +50,7 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \pagestyle{fancy}
-\fancyfoot[CE,CO]{\thepage}
+\fancyfoot[RE,RO]{\thepage}
 \patchcmd{\chapter}{plain}{fancy}{}{}
 \patchcmd{\chapter}{empty}{plain}{}{}
 
@@ -114,12 +114,12 @@
   % Pengaturan ukuran spasi paragraf
   \setlength{\parskip}{1ex}
 
-  % Pernyataan keaslian
-  \input{lainnya/pernyataan-keaslian.tex}
-  \cleardoublepage
-
   % Lembar pengesahan
   \input{lainnya/lembar-pengesahan.tex}
+  \cleardoublepage
+
+  % Pernyataan keaslian
+  \input{lainnya/pernyataan-keaslian.tex}
   \cleardoublepage
 
   % Nomor halaman pembuka dimulai dari sini
